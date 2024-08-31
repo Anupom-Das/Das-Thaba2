@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+}
+
+.food-logo{
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.side-image {
+    width: 50px; 
+    height: auto;
+}
+
+.navbar {
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+    background-color:white;
+    border-radius: 5px;
+}
+
+.right-images {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+}
+
+.right-images .side-image {
+    margin-right: 10px; 
+}
+
+
+
+
+
+
+
+.image-text-container {
+    display: flex; 
+    align-items: center; 
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 15%;
+    background-color: orange;
+}
+
+.image-caption {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px; 
+    font-weight: bolder;
+    
+}
+
+.circular-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin-right:15px ;
+    
+}
+
+
+
+
+
+.content-section {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1200px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    max-width: 30%;
+}
+
+.text-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px; 
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    grid-gap: 15px; 
+    max-width: 45%;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width:576px){
+
+    .navbar ul li{
+        flex-direction: column;
+        display: flex;
+        
+    }
+
+    .image-text-container{
+        gap: 20px;
+    }
+
+    .image-gallery{
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .image-text-container{
+        width: 35%;
+    }
+    
+
+
+
+
+}

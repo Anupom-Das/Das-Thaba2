@@ -1,0 +1,585 @@
+.three-part-section {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 20px ;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.part {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.part-image {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    font-size: 15px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.part:not(:last-child) {
+    border-right: 1px solid #ddd; 
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.card-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 32%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    position: relative;
+}
+
+.card-left {
+    text-align: left;
+}
+
+.card-left h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.btn-card {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.star-symbol {
+    font-size: 24px;
+    color: #ffc107;
+}
+
+.rating-number {
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+}
+
+.card-content p {
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.bottom-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-bottom {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+.content-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+   
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 32%; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.feature-card img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.custom-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.left-side {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+
+.top-div, .bottom-div {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-div img  {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 35px;
+    
+}
+
+.bottom-div img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-left: 155px;
+    
+    order: 2; 
+}
+
+.text-content p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.right-side {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    flex-direction: column;
+}
+
+.full-side-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial{
+    display: flex;
+}
+
+
+
+
+
+.center-section {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 400px;
+    width: 30%;
+}
+
+.rounded-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px; 
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    text-align: left;
+}
+
+.text-line {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+
+
+
+
+
+.contents-section {
+    display: flex;
+    align-items: center;
+    background-color: #000000; 
+    padding: 50px; 
+    border-radius: 10px;
+    color: #ffffff; 
+    max-width: 800px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-container {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.email-form button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.email-form button:hover {
+    background-color: #e6b800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.multi-part-section {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    background-color:white; 
+    padding: 50px;
+    border-radius: 10px;
+    color: white; /
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.part {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.main-image {
+    width: 50%;
+    max-width: 200px; 
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.main-description {
+    font-size: 18px;
+}
+
+.link-images {
+    display: flex;
+    gap: 10px; 
+    
+}
+
+.link-image {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.link-image:hover {
+    transform: scale(1.1); 
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width:576px){
+
+    
+.card-content{
+    flex-direction: column;
+    height: 200%;
+}
+
+.card-content h3{
+    font-size: 15px;
+}
+
+.card-content  {
+    
+}
+
+.card-row{
+    display: grid;
+    align-items: center;
+    
+}
+
+.card{
+    width: 150%;
+    margin-top: 20px;
+    
+}
+
+.part img{
+    width: 30px;
+}
+
+
+
+.feature-container{
+    width: 90%;
+    gap: 20px;
+}
+
+.feature-card img{
+    width: 50px;
+}
+
+
+.testimonial{
+    width: 90%;
+}
+
+.top-div{
+    width: 180%;
+}
+
+.top-div img{
+    width: 50%;
+}
+
+.top-div p{
+    font-size: 11px;
+}
+
+
+.bottom-div p{
+    font-size: 10px;
+}
+
+.bottom-div img{
+    width: 60%;
+    margin-left: 20px;
+}
+
+.bottom-div{
+    gap: 10px;
+    width: 180%;
+}
+
+.right-side{
+    flex-direction: row;
+    width: 90%;
+    gap:20px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.testimonial{
+    flex-direction: column;
+}
+
+.right-side img{
+width: 70%;
+}
+
+.center-section{
+    margin-left: 2px;
+    width: 90%;
+}
+
+.contents-section{
+    margin-left: 2px;
+}
+
+
+}
